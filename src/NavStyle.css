@@ -1,0 +1,28 @@
+
+.navbarSection{
+    position: absolute;
+    top: 0;
+    display: flex;
+    padding: 25px;
+    width: 100%;
+    justify-content: space-between;
+    transition: all .2s;
+}
+
+.nav_black{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #111;
+    transition: all .2s;
+}
+.logo{
+    object-fit: contain;
+    width: 150px;
+
+}
+
+.avtar{
+    object-fit: contain;
+    max-width: 40px;
+}
